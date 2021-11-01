@@ -77,6 +77,54 @@ section:nth-child(even){
     background-color: #eee;
 }
 
+aside .icon-bar{
+    position: fixed;
+    top: 50%;
+    left: -3.8rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);    
+}
+
+aside .icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin: 2rem 0;
+    border-radius: 1.2rem;
+}
+
+aside .icon-bar:hover{
+    left: 0   
+}
+
+aside .whatsapp{
+    background:linear-gradient(45deg, #1EBEA5, #00E676);
+    color: white;
+}
+
+.whatsapp:hover{
+    width: 9rem;
+    transform: rotate(5deg);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    color: black;
+}
+
+aside .instagram{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+}
+
+.instagram:hover{
+    width: 9rem;
+    transform: rotate(5deg);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    color: black;
+}
+
 /* h1 e h3 da section ice cream */
 
 .sub-heading{
