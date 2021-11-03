@@ -486,7 +486,7 @@ header .icons #menu-btn{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 9rem;
+    padding: 9rem 0;
 }
 
 .swiper-slide{
