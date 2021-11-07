@@ -545,8 +545,7 @@ header .icons #menu-btn{
 
 .category{
     background-color: #eee;
-    padding: 2rem 0;
-    height: 33rem;
+    padding: 4rem 0;
 }
 
 .category .category-slider .swiper-wrapper .wrapper .box{
